@@ -6,7 +6,7 @@ session_start();
 
 if($_SESSION['logedin'] != 'saudiqbal')
 {
-header("Location: bookmarks/index.php"); 
+header("Location: index.php"); 
 exit(); 
 } 
 
