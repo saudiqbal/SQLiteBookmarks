@@ -11,9 +11,9 @@ exit();
 } 
 
 // main page
-$mainpage = "bookmarks/main.php";
+$mainpage = "main.php";
 // redirect link
-$redirectlocation = "bookmarks/index.php";
+$redirectlocation = "index.php";
 // referer check
 $yoursite = "example.com"; //Your site url without http://
 $yoursite2 = "www.example.com"; //Type your domain with www. this time
