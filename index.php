@@ -4,7 +4,7 @@ header("Content-Encoding: gzip");
 session_start();
 
 // main page
-$mainpage = "http://www.saudiqbal.com/bookmarks/main.php";
+$mainpage = "main.php";
 
 if($_SESSION['logedin'] == 'saudiqbal')
 {
