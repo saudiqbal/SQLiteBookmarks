@@ -19,6 +19,6 @@ $yoursite = "example.com"; //Your site url without http://
 $yoursite2 = "www.example.com"; //Type your domain with www. this time
 
 // SQLite database with path
-$dbname = "../db/Bookmarks.db";
+$dbname = "Bookmarks.db";
 
 ?>
