@@ -6,17 +6,17 @@ session_start();
 
 if($_SESSION['logedin'] != 'saudiqbal')
 {
-header("Location: http://www.saudiqbal.com/bookmarks/index.php"); 
+header("Location: bookmarks/index.php"); 
 exit(); 
 } 
 
 // main page
-$mainpage = "http://www.saudiqbal.com/bookmarks/main.php";
+$mainpage = "bookmarks/main.php";
 // redirect link
-$redirectlocation = "http://www.saudiqbal.com/bookmarks/index.php";
+$redirectlocation = "bookmarks/index.php";
 // referer check
-$yoursite = "saudiqbal.com"; //Your site url without http://
-$yoursite2 = "www.saudiqbal.com"; //Type your domain with www. this time
+$yoursite = "example.com"; //Your site url without http://
+$yoursite2 = "www.example.com"; //Type your domain with www. this time
 
 // SQLite database with path
 $dbname = "../db/Bookmarks.db";
