@@ -303,7 +303,7 @@ fieldset
     </fieldset>
     <fieldset id="actions">
         <input type="submit" name="submit" id="submit" value="Log in">
-        <a href="#"><? echo $error; ?></a>
+        <a href="#"><?php echo $error; ?></a>
     </fieldset>
 </form>
 </body>
