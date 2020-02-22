@@ -27,7 +27,7 @@ if($domain['host'] == $yoursite || $domain['host'] == $yoursite2)
 {
     //open the database
     $db = new PDO("sqlite:$dbname");
-
+$link = preg_replace('/^(?!https?:\/\/)/', 'http://', $link);
 	$db->exec("INSERT INTO BookmarksTable (Title, Link) VALUES ('$title' ,'$link')");
 	
     // close the database connection
