@@ -9,10 +9,10 @@ if(empty($title))
 header("Location: error.php?error=notitle");
 exit();
 }
-if(!ereg("[h][t][t][p][:][/][/][a-zA-Z0-9\]",$link))
+if(empty($link))
 {
 header("Location: error.php?error=nolink");
-exit();
+exit;
 }
   
 $referer = $_SERVER['HTTP_REFERER'];
